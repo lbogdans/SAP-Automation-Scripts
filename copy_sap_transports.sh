@@ -8,8 +8,8 @@
 # Adopt vars 
 # ############
 
-SIDADM="sidadm"
-SIDGroup="sapsys"
+SIDADM="sidadm" #<sid> == your SAP SID 
+SIDGroup="sapsys" #standard group
 File="transports.txt"
 
 Red="\e[3;31m"
