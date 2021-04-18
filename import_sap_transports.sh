@@ -2,6 +2,7 @@
 
 #
 # This script is used to add the transports from the list to the import queue and or import them.
+# run as <sid>adm
 #
 
 # ############
@@ -11,9 +12,9 @@
 
 File="transports.txt"
 Import="Y" # Y or N
-SID="ET2"	 # <SID> where you want to import
+SID="SID"	 # <SID> where you want to import
 Client="500"	# <SAP Client>
-Profile="TP_DOMAIN_MEP.PFL"  # <SID> for domain system
+Profile="TP_DOMAIN_SID.PFL"  # <SID> for domain system
 AddMode="u1"  # e.g. u1
 ImportMode="" # e.g. u26
 Project=""
